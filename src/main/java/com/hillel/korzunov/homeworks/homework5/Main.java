@@ -10,7 +10,7 @@ public class Main {
         String mistake = "Wrong data! Please restart app and try again.\nNotice: use only integers for frags.";
         System.out.println("Enter the name of the first team:");
         String teamName1 = scan.nextLine();
-        System.out.println("Enter number of frags for each of your "+team1.length+" players:");
+        System.out.println("Enter number of frags for each of your " + team1.length + " players:");
         for (int i = 0; i < team1.length; i++) {
             if (scan.hasNextInt()) {
                 team1[i] = scan.nextInt();
@@ -22,7 +22,7 @@ public class Main {
         scan.nextLine();
         System.out.println("Enter the name of the second team: ");
         String teamName2 = scan.nextLine();
-        System.out.println("Enter number of frags for each of your "+team2.length+" players:");
+        System.out.println("Enter number of frags for each of your " + team2.length + " players:");
         for (int i = 0; i < team2.length; i++) {
             if (scan.hasNextInt()) {
                 team2[i] = scan.nextInt();
