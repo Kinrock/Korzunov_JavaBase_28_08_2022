@@ -8,7 +8,7 @@ public class GuessTheNumber {
         int mystery = (int) (Math.random() * 11);
         int answer;
         int a = 3;
-        System.out.println("Try to guess the number from 0 to 10 that computer guessed.\nYou have "+ a + " attempts, lets start: ");
+        System.out.println("Try to guess the number from 0 to 10 that computer guessed.\nYou have " + a + " attempts, lets start: ");
         for (int i = 1; i < 4; i++) {
             a--;
             if (scan.hasNextInt()) {
@@ -29,10 +29,8 @@ public class GuessTheNumber {
 
             } else if (answer > mystery) {
                 System.out.println("Your answer is more than guessed number.");
-
             } else if (answer < mystery) {
                 System.out.println("Your answer is less than guessed number.");
-
             } else {
                 System.out.println("You won!\nCongrats!");
                 break;
@@ -41,7 +39,6 @@ public class GuessTheNumber {
             if (a == 0) {
                 System.out.println("Sorry, you loose. Better luck next time;)");
             }
-
         }
     }
 }
