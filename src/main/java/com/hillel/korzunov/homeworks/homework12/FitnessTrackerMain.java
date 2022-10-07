@@ -21,9 +21,9 @@ public class FitnessTrackerMain {
         System.out.println(person5.printAccountInfo());
 
         person1.setWeight(95);
-        person1.steps = 8500;
+        person1.setSteps(8500);
         person3.setPressure("140/100");
-        person3.lastName = "Tsoi";
+        person3.setLastName("Tsoi");
 
         System.out.println("After changes: \n");
         System.out.println(person1.printAccountInfo());
