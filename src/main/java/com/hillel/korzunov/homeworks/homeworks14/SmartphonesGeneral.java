@@ -13,6 +13,10 @@ public abstract class SmartphonesGeneral implements Smartphones {
         return name;
     }
 
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     public String getModel() {
         return model;
     }
