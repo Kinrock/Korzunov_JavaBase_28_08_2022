@@ -11,14 +11,12 @@ public class Main {
                 smartphone.sms();
                 smartphone.call();
                 smartphone.internet();
-                if (smartphone instanceof Androids){
-                    ((Androids)smartphone).systemRun();
+                if (smartphone instanceof Androids) {
+                    ((Androids) smartphone).systemRun();
                 } else if (smartphone instanceof IPhones) {
-                    ((IPhones)smartphone).systemRun();
+                    ((IPhones) smartphone).systemRun();
                 }
             }
         }
-
-
     }
 }

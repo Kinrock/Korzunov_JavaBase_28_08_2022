@@ -25,7 +25,7 @@ public class Androids extends SmartphonesGeneral implements Smartphones, LinuxOS
 
     @Override
     public void systemRun() {
-        System.out.println("Phone name " + '\u0022' + getName() + '\u0022' + ", model "+
+        System.out.println("Phone name " + '\u0022' + getName() + '\u0022' + ", model " +
                 '\u0022' + getModel() + '\u0022' + " runs on Linux operating system.");
     }
 }

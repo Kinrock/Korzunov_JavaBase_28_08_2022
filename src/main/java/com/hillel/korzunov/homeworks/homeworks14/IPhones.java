@@ -25,7 +25,7 @@ public class IPhones extends SmartphonesGeneral implements Smartphones, IOS {
 
     @Override
     public void systemRun() {
-        System.out.println("Phone name " + '\u0022' + getName() + '\u0022' + ", model "+
+        System.out.println("Phone name " + '\u0022' + getName() + '\u0022' + ", model " +
                 '\u0022' + getModel() + '\u0022' + " runs on IOS.");
     }
 }
