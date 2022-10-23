@@ -1,7 +1,7 @@
-package com.hillel.korzunov.homeworks.homeworks14;
+package com.hillel.korzunov.homeworks.homework14;
 
-public class Androids extends SmartphonesGeneral implements Smartphones, LinuxOS {
-    protected Androids(String name, String model) {
+public class IPhones extends SmartphonesGeneral implements Smartphones, IOS {
+    protected IPhones(String name, String model) {
         super(name, model);
     }
 
@@ -26,6 +26,6 @@ public class Androids extends SmartphonesGeneral implements Smartphones, LinuxOS
     @Override
     public void systemRun() {
         System.out.println("Phone name " + '\u0022' + getName() + '\u0022' + ", model " +
-                '\u0022' + getModel() + '\u0022' + " runs on Linux operating system.");
+                '\u0022' + getModel() + '\u0022' + " runs on IOS.");
     }
 }

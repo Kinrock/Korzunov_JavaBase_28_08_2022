@@ -1,4 +1,4 @@
-package com.hillel.korzunov.homeworks.homeworks14;
+package com.hillel.korzunov.homeworks.homework14;
 
 public abstract class SmartphonesGeneral implements Smartphones {
     private final String name;
